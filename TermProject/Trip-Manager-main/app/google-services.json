@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345290057276",
+    "project_id": "trip-app-d25f6",
+    "storage_bucket": "trip-app-d25f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345290057276:android:f62b09e964a35504b48539",
+        "android_client_info": {
+          "package_name": "com.example.asp_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu7QM6wV-ULgN4xlMohic8L9QdkZ9j3lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

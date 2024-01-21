@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutActivity">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:inputType="text"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:inputType="textPassword" />
+
+    </TableRow>
+    <TableRow>
+
+        <CheckBox android:text="Remember Password" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Log IN"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+
+            android:gravity="center_horizontal"
+            android:text="Table Layout"
+            android:textAlignment="center"
+            android:textSize="48dp" />
+    </TableRow>
+
+</TableLayout>
